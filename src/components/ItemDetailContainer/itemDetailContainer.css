@@ -1,0 +1,8 @@
+.item-detail-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background-color: var(--gris-claro);
+  padding-top: 100px;
+  min-height: 90vh;
+}

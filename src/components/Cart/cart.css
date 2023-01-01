@@ -1,0 +1,99 @@
+.titulo-cart {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 3px;
+  color: black;
+}
+
+.btn-cart {
+  border: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
+  padding: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.cart-item-container {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-family: var(--font-anton);
+  color: rgb(87, 84, 84);
+  letter-spacing: 1.4px;
+  font-size: 15px;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.cart-empty {
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.DetalleProducto {
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+  align-items: center;
+  border-bottom: 2px solid rgb(201, 201, 201);
+}
+.DetalleProducto img {
+  width: 90px;
+  height: 90px;
+  margin: 30px;
+}
+
+.item-name {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.btnEliminar {
+  margin-right: 30px;
+}
+.btn-red {
+  background-color: var(--red-color);
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: rgb(94, 2, 2);
+}
+
+.btn-checkout {
+  outline-offset: -2px;
+  outline: 2px solid black;
+  color: black;
+}
+
+.btn-checkout:hover {
+  background-color: black;
+  color: white;
+}
+
+.footer-cart {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-cart p {
+  font-size: 25px;
+  color: black;
+}
+
+.div-checkout {
+  display: flex;
+  gap: 30px;
+}

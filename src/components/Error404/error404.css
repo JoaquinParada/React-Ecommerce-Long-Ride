@@ -1,0 +1,20 @@
+.error-page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: red;
+  font-family: "Inter", sans-serif;
+  background-image: url(../../assets/error404.jpg);
+}
+
+.error-page-container h2 {
+  font-size: 40px;
+}
+
+.error-page-container h3 {
+  font-size: 35px;
+}

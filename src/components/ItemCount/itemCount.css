@@ -1,0 +1,58 @@
+.ItemCount {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.ItemCount__contenido {
+  display: flex;
+}
+.cantidad {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  background-color: white;
+}
+.btn-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+  font-weight: 400;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+
+.btn-count:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-agregar {
+  height: 50px;
+  width: 300px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: var(--font-anton);
+  text-transform: uppercase;
+  background-color: var(--red-color);
+  transition: 0.5s;
+}
+
+.btn-agregar:hover {
+  background-color: var(--drak-red-color);
+}
+
+@media screen and (max-width: 1100px) {
+  .ItemCount {
+    justify-content: center;
+    align-items: center;
+  }
+}

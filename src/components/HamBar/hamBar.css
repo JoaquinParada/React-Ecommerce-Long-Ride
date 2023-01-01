@@ -1,0 +1,12 @@
+.ham-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+}
+
+.line {
+  height: 5px;
+  width: 40px;
+  background-color: white;
+}

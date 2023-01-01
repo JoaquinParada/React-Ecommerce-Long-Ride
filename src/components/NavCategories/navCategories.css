@@ -1,0 +1,24 @@
+.nav-category {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding-right: 30px;
+  gap: 20px;
+}
+
+.nav-category a {
+  color: black;
+}
+
+.active-nav {
+  background-color: rgb(255, 157, 157);
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-category {
+    padding-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

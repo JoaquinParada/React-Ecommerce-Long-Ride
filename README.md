@@ -1,6 +1,10 @@
 # React Ecommerce Long Ride
 
 This project was bootstrapped with Create React App.
+For building the app was used:
+- Firebase(a NoSQL and real-time hosting of databases)
+- Context (Context provides a way to pass data through the component tree without having to pass props down manually at every level.)
+- React Router (It enables the navigation among views of various components in a React Application)
 
 ## Link
 

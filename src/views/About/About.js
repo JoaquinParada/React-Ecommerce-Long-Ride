@@ -69,12 +69,6 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="ubicacion-container">
-          <h3>DIRECCION</h3>
-          <p>Av. Juan José Paso 3100-3002</p>
-          <h3>NUMERO DE TELEFONO</h3>
-          <p>11 2343 45564</p>
-        </div>
       </section>
       <Footer />
     </div>

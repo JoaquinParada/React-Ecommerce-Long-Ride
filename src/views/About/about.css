@@ -1,4 +1,4 @@
-.section-historia{
+.section-historia {
   padding: 200px 0;
   display: flex;
   flex-direction: column;
@@ -7,13 +7,15 @@
   gap: 100px;
   font-family: "Inter", sans-serif;
 }
-.titulo-historia-container{
+.titulo-historia-container {
   position: relative;
 }
-.titulo-historia-container h1{
+.titulo-historia-container h1 {
   position: relative;
   z-index: 2000;
   font-size: 40px;
+  font-family: var(--font-anton);
+  letter-spacing: 1.3px;
 }
 .img-ola {
   position: absolute;
@@ -22,79 +24,80 @@
   left: -50px;
   z-index: 1000;
 }
-.div-container-historia{
+.div-container-historia {
   display: flex;
   gap: 50px;
   font-size: 20px;
-  max-width: 900px;
 }
-.img-fundadores{
+.img-fundadores {
   width: 400px;
   height: auto;
   box-shadow: -20px -20px 1px rgb(43, 43, 43);
 }
 
-.texto-historia-container{
+.texto-historia-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 70px;
+  font-weight: 700;
+  width: 500px;
+  color: var(--color-gris);
+  font-family: var(--font-advent-700);
 }
 
-.img-sign{
+.img-sign {
   width: 250px;
 }
 
-
-.section-informacion{
-  display: grid;
-  grid-template-areas: 
-  "titulo titulo"
-  "horario ubicacion"
-  ;
-  gap: 50px;
-  justify-content: center;
-  font-family: "Inter", sans-serif; 
-  margin-bottom: 100px; 
-}
-.section-informacion h2{
-  grid-area: titulo;
-  text-align: center;
-  font-size: 40px;
-}
-.horarios-container{
-  grid-area: horario;
+.section-informacion {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 40px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.section-informacion h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: var(--font-anton);
+  letter-spacing: 1.3px;
+}
+.horarios-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: 700;
+  font-family: var(--font-advent-700);
 }
 .horarios-container h3 {
   text-align: center;
 }
-.horario{
+.horario {
   display: flex;
   gap: 30px;
   text-align: center;
 }
-.tabla-icono{
-  width: 40px;
+.tabla-icono {
+  width: 30px;
+  height: 30px;
 }
-.ubicacion-container{
-  grid-area: ubicacion;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  align-items: center;
-}
-
-
 
 @media screen and (max-width: 800px) {
-  .div-container-historia{
+  .titulo-historia-container h1 {
+    font-size: 30px;
+  }
+  .img-fundadores {
+    width: 200px;
+  }
+  .div-container-historia {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
-  
+  .texto-historia-container {
+    width: 90%;
+  }
 }

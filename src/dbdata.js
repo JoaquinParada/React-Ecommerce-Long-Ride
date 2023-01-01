@@ -71,6 +71,23 @@ let data = [
     precio: 1500,
     imgageId: "hoddies/energetic-surfers.png",
   },
+  // listo-=--------listo---------listo-------listo
+  {
+    catogoryId: "hoddies",
+    title: "Energetic Surfers hoddies",
+    description:
+      "Hoddie de algodon con tela termica perfecto para cortar los vientos de la costa luego de surfuear con bolsillo kanguro y estampa energetic surfers. Tiene bolsillo kanguro. Color amarilla",
+    precio: 1600,
+    imgageId: "hoddies/energetic-surfers-amarilla.png",
+  },
+  {
+    catogoryId: "hoddies",
+    title: "Surfing hoddies",
+    description:
+      "Hoddie de algodon con tela termica perfecto para cortar los vientos de la costa luego de surfuear con bolsillo kanguro y con la palabra surfing que refleja la forma de vivir en long ride. Color amarillo",
+    precio: 1600,
+    imgageId: "hoddies/surfing-amarilla.png",
+  },
   //------------------BOARDS---------------------------
   //------------------BOARDS---------------------------
   {
@@ -119,19 +136,28 @@ let data = [
   //------------------longboard---------------------------
   //-------------------longboard---------------------------
   {
-    catogoryId: "longboards",
+    categoryId: "longboards",
     title: "Striker Canopy",
     description:
       "Striker Canopy es un monopatín de longboard construido para tallar y viajar. Este longboard Sector 9 es ideal para ir y venir del trabajo o la escuela de una forma más divertida y sostenible. El Striker Canopy viene con ejes negros de 10.0 Gullwing Charger y ruedas Nineball. El Sector 9 Crag Stack es un longboard de muy alta calidad. Encuentra tu isla paradisíaca con este longboard tropical",
     precio: 4000,
-    imgageId: "longboards/Points-North.png",
+    imgageId: "longboards/stiker-canopy.png",
   },
+  // ** finlizado
   {
-    catogoryId: "longboards",
+    categoryId: "longboards",
     title: "Arbor-Axis",
     description:
       "Un drop-through inspirado en el snowboard para un paseo fácil por la ciudad, viajes relajados y descensos tranquilos",
-    precio: 4000,
-    imgageId: "longboards/Arbor-Axis.png",
+    price: 4000,
+    imageId: "longboards/arbor-Axis.png",
+  },
+  {
+    categoryId: "longboards",
+    title: "airdin ride",
+    description:
+      "Con gran aerodinamismo esta longboeard gana rapidamente velocidad. Longboard recomendada para aquellos que ya tengan experiencia. Tiene un estilo sombrio de madera con franjas claras",
+    price: 4000,
+    imageId: "longboards/Arbor-Axis.png",
   },
 ];

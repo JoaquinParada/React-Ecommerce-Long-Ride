@@ -9,7 +9,7 @@ function Products() {
         <CategoryCard products="hoddies" />
         <CategoryCard products="surfboards" />
         <CategoryCard products="t-shirt" />
-        <CategoryCard products="longboard" />
+        <CategoryCard products="longboards" />
       </div>
       <Footer />
     </section>

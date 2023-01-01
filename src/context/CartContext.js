@@ -47,7 +47,7 @@ export const CartContextProvider = ({ children }) => {
             className="btnEliminar btn-cart btn-red"
             onClick={() => removeItem(product.id)}
           >
-            Eliminar
+            X
           </button>
         </div>
       );
